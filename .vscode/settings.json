@@ -1,0 +1,112 @@
+{
+  "workbench.editor.enablePreview": true,
+  "workbench.startupEditor": "welcomePage",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.eol": "\n", // LF
+  "files.autoSave": "off",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.renderWhitespace": "none",
+  "editor.cursorStyle": "line",
+  "editor.lineNumbers": "on",
+  "editor.wordWrap": "on",
+  "editor.quickSuggestions": {
+    "strings": true,
+  },
+  // VIM
+  "vim.handleKeys": {},
+  "vim.useCtrlKeys": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "INFO",
+    "FEATURE",
+    "WARNING",
+    "BUG",
+    "MENTION",
+    "IDEA",
+    "REVIEW",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.highlightDelay": 100,
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "type": "tag",
+      "foreground": "#444",
+      "background": "#acacac",
+      "gutterIcon": true,
+      "icon": "dash",
+      "iconColour": "#acacac"
+    },
+    "REVIEW": {
+      "type": "tag",
+      "foreground": "#444",
+      "background": "#00b68e",
+      "gutterIcon": true,
+      "icon": "eye",
+      "iconColour": "#00b68e"
+    },
+    "FIXME": {
+      "type": "tag",
+      "foreground": "white",
+      "background": "red",
+      "iconColour": "red",
+      "gutterIcon": true
+    },
+    "INFO": {
+      "type": "tag",
+      "foreground": "white",
+      "background": "#3c55fa",
+      "gutterIcon": true,
+      "icon": "info",
+      "iconColour": "#3c55fa"
+    },
+    "WARNING": {
+      "type": "tag",
+      "foreground": "#222",
+      "background": "#f19c19",
+      "gutterIcon": true,
+      "icon": "alert",
+      "iconColour": "#f19c19"
+    },
+    "FEATURE": {
+      "type": "tag",
+      "foreground": "#fff",
+      "background": "#d1278a",
+      "gutterIcon": true,
+      "icon": "zap",
+      "iconColour": "#d1278a"
+    },
+    "BUG": {
+      "type": "tag",
+      "foreground": "#fff",
+      "background": "#9d2fe6",
+      "gutterIcon": true,
+      "icon": "bug",
+      "iconColour": "#9d2fe6"
+    },
+    "MENTION": {
+      "type": "tag",
+      "foreground": "#333",
+      "background": "#00ffff",
+      "gutterIcon": true,
+      "icon": "mention",
+      "iconColour": "#00ffff"
+    },
+    "IDEA": {
+      "type": "tag",
+      "foreground": "#333",
+      "background": "#e9e923",
+      "gutterIcon": true,
+      "icon": "moon",
+      "iconColour": "#e9e923"
+    }
+  },
+  "todo-tree.tree.showBadges": true,
+  "todo-tree.tree.disableCompactFolders": true,
+  "todo-tree.tree.scanMode": "open files"
+}

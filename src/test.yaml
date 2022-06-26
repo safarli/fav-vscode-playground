@@ -1,0 +1,22 @@
+# Yaml Comment Line
+
+Jsterms:
+  - Scopes:
+      - Static
+      - Dynamic
+      - Runtime augmented
+    Property-2: Primitive string
+  - Lexical environment
+  - Environment Records:
+    - DER (Declarative Environemt Record)
+    - OER (Object Environment Record)
+  - Execution context
+  - Block
+  - Closure
+  - Activation object
+
+
+YamlStructure:
+  Property-1: Primitive String Value
+  Property-2:
+    - Array item with primitive string value
