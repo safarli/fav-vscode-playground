@@ -19,7 +19,6 @@
 // IDEA: Kenarlarini belke oval edek?
 // REVIEW: wjeifwjfe
 
-
 import './oe/ProxyPatterns.mjs';
 
 const sample = (arg1: string, ...value: [number, number]) => {

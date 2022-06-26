@@ -4,6 +4,10 @@
 // TODO: Lorem ipsum color sit amet
 // INFO: Nezerinize catdiririq ki, ....
 
+// BOOKMARK: Qeyd: baxarsiniz
+
+// OPTIMIZE: Make this function more reusable and modularized
+
 interface IPerson {
   name: string;
   nationality: string;

@@ -15,7 +15,6 @@
     "strings": true,
   },
   // VIM
-  "vim.handleKeys": {},
   "vim.useCtrlKeys": false,
   "todo-tree.general.tags": [
     "BUG",
@@ -29,11 +28,29 @@
     "MENTION",
     "IDEA",
     "REVIEW",
+    "BOOKMARK",
+    "OPTIMIZE",
     "[ ]",
     "[x]"
   ],
   "todo-tree.highlights.highlightDelay": 100,
   "todo-tree.highlights.customHighlight": {
+    "BOOKMARK": {
+      "type": "tag",
+      "foreground": "#333",
+      "background": "#9c8d34",
+      "gutterIcon": true,
+      "icon": "bookmark",
+      "iconColour": "#9c8d34"
+    },
+    "OPTIMIZE": {
+      "type": "tag",
+      "foreground": "#333",
+      "background": "#72c900",
+      "gutterIcon": true,
+      "icon": "rocket",
+      "iconColour": "#72c900"
+    },
     "TODO": {
       "type": "tag",
       "foreground": "#444",
@@ -106,7 +123,5 @@
       "iconColour": "#e9e923"
     }
   },
-  "todo-tree.tree.showBadges": true,
-  "todo-tree.tree.disableCompactFolders": true,
-  "todo-tree.tree.scanMode": "open files"
+  "todo-tree.tree.scanMode": "workspace"
 }
