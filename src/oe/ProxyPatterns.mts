@@ -8,6 +8,8 @@
 
 // OPTIMIZE: Make this function more reusable and modularized
 
+// CLIENT-REQUEST: wjefiwejfwifjwei
+
 interface IPerson {
   name: string;
   nationality: string;
@@ -15,10 +17,9 @@ interface IPerson {
   // [x: string | symbol]: string | number;
 }
 
+// prettier-ignore
 const person: IPerson = {
-  name: 'John Doe',
-  nationality: 'American',
-  age: 79,
+  name: 'John Doe', nationality: 'American', age: 79,
 };
 
 const personProxy = new Proxy(person, {
@@ -31,7 +32,12 @@ const personProxy = new Proxy(person, {
   },
 });
 
-function foo<K extends keyof IPerson, V extends IPerson[K]>(prop: K, value: V) {
+class Vehicle {}
+
+function foo<K extends keyof IPerson, V extends IPerson[K]>(
+  prop: K,
+  value: V,
+): void {
   person[prop] = value;
 }
 

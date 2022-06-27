@@ -4,13 +4,20 @@
   "workbench.iconTheme": "material-icon-theme",
   "files.eol": "\n", // LF
   "files.autoSave": "off",
+  "files.encoding": "utf8",
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
   "editor.tabSize": 2,
-  "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+  "editor.fontFamily": "'Jetbrains Mono', 'Courier New', monospace",
   "editor.fontSize": 13,
+  "editor.lineHeight": 1.2,
+  "terminal.integrated.fontSize": 12,
   "editor.renderWhitespace": "none",
   "editor.cursorStyle": "line",
   "editor.lineNumbers": "on",
   "editor.wordWrap": "on",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.bracketPairs": "active",
   "editor.quickSuggestions": {
     "strings": true,
   },
@@ -30,6 +37,9 @@
     "REVIEW",
     "BOOKMARK",
     "OPTIMIZE",
+    "REUSABLE",
+    "TESTED",
+    "CLIENT-REQUEST",
     "[ ]",
     "[x]"
   ],
@@ -37,7 +47,7 @@
   "todo-tree.highlights.customHighlight": {
     "BOOKMARK": {
       "type": "tag",
-      "foreground": "#333",
+      "foreground": "#222",
       "background": "#9c8d34",
       "gutterIcon": true,
       "icon": "bookmark",
@@ -51,17 +61,24 @@
       "icon": "rocket",
       "iconColour": "#72c900"
     },
+    "TESTED": {
+      "type": "tag",
+      "foreground": "#222",
+      "background": "#7cff77",
+      "gutterIcon": true,
+      "iconColour": "#7cff77"
+    },
     "TODO": {
       "type": "tag",
-      "foreground": "#444",
-      "background": "#acacac",
+      "foreground": "#0000af",
+      "background": "#cecece",
       "gutterIcon": true,
       "icon": "dash",
-      "iconColour": "#acacac"
+      "iconColour": "#cecece"
     },
     "REVIEW": {
       "type": "tag",
-      "foreground": "#444",
+      "foreground": "#333",
       "background": "#00b68e",
       "gutterIcon": true,
       "icon": "eye",
@@ -69,14 +86,14 @@
     },
     "FIXME": {
       "type": "tag",
-      "foreground": "white",
-      "background": "red",
-      "iconColour": "red",
+      "foreground": "#fff",
+      "background": "#f00",
+      "iconColour": "#f00",
       "gutterIcon": true
     },
     "INFO": {
       "type": "tag",
-      "foreground": "white",
+      "foreground": "#fff",
       "background": "#3c55fa",
       "gutterIcon": true,
       "icon": "info",
@@ -84,7 +101,7 @@
     },
     "WARNING": {
       "type": "tag",
-      "foreground": "#222",
+      "foreground": "#000",
       "background": "#f19c19",
       "gutterIcon": true,
       "icon": "alert",
@@ -92,36 +109,56 @@
     },
     "FEATURE": {
       "type": "tag",
-      "foreground": "#fff",
-      "background": "#d1278a",
+      "foreground": "#000",
+      "background": "#ff55b8",
       "gutterIcon": true,
       "icon": "zap",
-      "iconColour": "#d1278a"
+      "iconColour": "#ff55b8"
     },
     "BUG": {
       "type": "tag",
       "foreground": "#fff",
-      "background": "#9d2fe6",
+      "background": "#a435ee",
       "gutterIcon": true,
       "icon": "bug",
-      "iconColour": "#9d2fe6"
+      "iconColour": "#a435ee"
     },
     "MENTION": {
       "type": "tag",
-      "foreground": "#333",
-      "background": "#00ffff",
+      "foreground": "#000",
+      "background": "#00dddd",
       "gutterIcon": true,
       "icon": "mention",
-      "iconColour": "#00ffff"
+      "iconColour": "#00dddd"
     },
     "IDEA": {
       "type": "tag",
-      "foreground": "#333",
-      "background": "#e9e923",
+      "foreground": "#000",
+      "background": "#e0e001",
       "gutterIcon": true,
       "icon": "moon",
-      "iconColour": "#e9e923"
+      "iconColour": "#e0e001"
+    },
+    "REUSABLE": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#f7aeae",
+      "gutterIcon": true,
+      "icon": "squirrel",
+      "iconColour": "#f7aeae"
+    },
+    "CLIENT-REQUEST": {
+      "type": "tag",
+      "foreground": "#ddd",
+      "background": "#00f",
+      "gutterIcon": true,
+      "icon": "person",
+      "iconColour": "#00f",
     }
   },
-  "todo-tree.tree.scanMode": "workspace"
+  "todo-tree.tree.scanMode": "workspace",
+  "todo-tree.general.statusBar": "current file",
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.tree.buttons.scanMode": true,
 }
