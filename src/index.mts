@@ -1,8 +1,6 @@
 /* eslint-disable */
 
-// ? Should I continue maintain this section? - Query
-// * Important info is highlighted - Highlight
-// ! depreceated function, don't use - Alert
+// CLIENT-REQUEST: Menyudaki itemlerin sayin 4 olmalidir
 
 // TODO: This is TODO
 // FIXME: This is FIXME
@@ -13,12 +11,17 @@
 
 // WARNING: fwewef
 // FEATURE: Effektli acilib qapanma ozelliyi
+
 // INFO: vacib melumatdir zehmet olmazsa tedbir gorun
+
 // BUG: wefweifjw
+
 // MENTION: @Justin
 // IDEA: Kenarlarini belke oval edek?
+
 // REVIEW: wjeifwjfe
 // REUSABLE: fwiejfweijf
+
 // TESTED: wfijfeif
 
 import './oe/ProxyPatterns.mjs';
@@ -67,6 +70,7 @@ const area = (length ?? 5) * (width ?? 10);
 console.log(area);
 
 // -------------------------
+
 // Class inside IIFE
 const Toaster = (() => {
   const IdGen = () => Math.random().toString(36).substring(2, 9);

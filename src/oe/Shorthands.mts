@@ -1,5 +1,6 @@
 /* eslint-disable */
 
+// TESTED: Tested once
 // INFO: It's recommended to disable eslint when working with this file
 
 // * variable declarations and initializations
@@ -39,6 +40,11 @@ let state: string = 'closed';
   console.log(num === num2 ? 'YES' : 'NO');
 }
 
+// IIFE
+(() => {
+  console.log('salam');
+})();
+
 // prettier-ignore
 const salam = (a: number) => 
   a + 5;
@@ -46,6 +52,7 @@ const salam = (a: number) =>
 /* arrow functions */
 const toNumber = (strNum: string, numType: 'INTEGER' | 'FLOAT') =>
   numType === 'INTEGER' ? ~~+strNum : numType === 'FLOAT' ? +strNum : null;
+
 const PersonFactory = (name: string, occupation: string, age: number) => ({
   pId: Math.random().toString(36).substring(2, 9),
   name,
