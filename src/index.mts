@@ -16,6 +16,11 @@ const arr: [number, number] = [444, 555];
 sample('box', ...arr);
 
 /**
+ * My namespace
+ * @namespace
+ */
+
+/**
  * JSDoc Comment
  * Types:
  * @type
