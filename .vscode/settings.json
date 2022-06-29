@@ -81,10 +81,10 @@
     "TODO": {
       "type": "tag",
       "foreground": "#000",
-      "background": "#afafaf",
+      "background": "#c7c7c7",
       "gutterIcon": true,
       "icon": "dash",
-      "iconColour": "#afafaf"
+      "iconColour": "#c7c7c7"
     },
     "REVIEW": {
       "type": "tag",

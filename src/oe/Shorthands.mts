@@ -6,7 +6,7 @@
 
 /* IDEA: jweiofwje */
 
-/* MENTION:
+/*MENTION:
   @bsafarli
   @zeynalov
   @aliyev
@@ -64,6 +64,10 @@ const salam = (a: number) =>
   a + 5;
 
 /* arrow functions */
+/**
+ * @param  {string} strNum
+ * @param  {'INTEGER'|'FLOAT'} numType
+ */
 const toNumber = (strNum: string, numType: 'INTEGER' | 'FLOAT') =>
   numType === 'INTEGER' ? ~~+strNum : numType === 'FLOAT' ? +strNum : null;
 

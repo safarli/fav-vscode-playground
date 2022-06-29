@@ -1,5 +1,7 @@
 /* eslint-disable */
 
+/* FIXME: USE PEACOCK TO COLORIZE VSCODE */
+
 /* INFO: Welcome to my code section, this is an info comment block */
 /* FEATURE: Add spinning globe effect */
 /* TODO: Do some checks here */
