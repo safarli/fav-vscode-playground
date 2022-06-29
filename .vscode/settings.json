@@ -6,6 +6,7 @@
   "files.autoSave": "off",
   "files.encoding": "utf8",
   "editor.detectIndentation": true,
+  "editor.guides.indentation": true,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.fontFamily": "'Jetbrains Mono', 'Courier New', monospace",
@@ -15,13 +16,22 @@
   "editor.renderWhitespace": "none",
   "editor.cursorStyle": "line",
   "editor.lineNumbers": "on",
-  "editor.wordWrap": "on",
-  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.wordWrap": "off",
+  "editor.rulers": [
+    80
+  ],
   "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
   "editor.quickSuggestions": {
     "strings": true,
   },
+  "workbench.colorCustomizations": {
+    "[One Dark Pro]": {
+      "sideBarSectionHeader.foreground": "#ee98ff"
+    }
+  },
   // VIM
+  "vim.foldfix": true,
   "vim.useCtrlKeys": false,
   "todo-tree.general.tags": [
     "BUG",
@@ -37,7 +47,7 @@
     "REVIEW",
     "BOOKMARK",
     "OPTIMIZE",
-    "REUSABLE",
+    "EXPLANATION",
     "TESTED",
     "CLIENT-REQUEST",
     "[ ]",
@@ -55,26 +65,26 @@
     },
     "OPTIMIZE": {
       "type": "tag",
-      "foreground": "#333",
-      "background": "#72c900",
+      "foreground": "#000",
+      "background": "#89b140",
       "gutterIcon": true,
       "icon": "rocket",
-      "iconColour": "#72c900"
+      "iconColour": "#89b140"
     },
     "TESTED": {
       "type": "tag",
-      "foreground": "#222",
-      "background": "#7cff77",
+      "foreground": "#000",
+      "background": "#66cf62",
       "gutterIcon": true,
-      "iconColour": "#7cff77"
+      "iconColour": "#66cf62"
     },
     "TODO": {
       "type": "tag",
-      "foreground": "#0000af",
-      "background": "#cecece",
+      "foreground": "#000",
+      "background": "#afafaf",
       "gutterIcon": true,
       "icon": "dash",
-      "iconColour": "#cecece"
+      "iconColour": "#afafaf"
     },
     "REVIEW": {
       "type": "tag",
@@ -86,18 +96,18 @@
     },
     "FIXME": {
       "type": "tag",
-      "foreground": "#fff",
-      "background": "#f00",
-      "iconColour": "#f00",
+      "foreground": "#000",
+      "background": "#ff5b5b",
+      "iconColour": "#ff5b5b",
       "gutterIcon": true
     },
     "INFO": {
       "type": "tag",
-      "foreground": "#fff",
-      "background": "#3c55fa",
+      "foreground": "#000",
+      "background": "#5f92ff",
       "gutterIcon": true,
       "icon": "info",
-      "iconColour": "#3c55fa"
+      "iconColour": "#5f92ff"
     },
     "WARNING": {
       "type": "tag",
@@ -110,54 +120,54 @@
     "FEATURE": {
       "type": "tag",
       "foreground": "#000",
-      "background": "#ff55b8",
+      "background": "#d45fa3",
       "gutterIcon": true,
       "icon": "zap",
-      "iconColour": "#ff55b8"
+      "iconColour": "#d45fa3"
     },
     "BUG": {
       "type": "tag",
-      "foreground": "#fff",
-      "background": "#a435ee",
+      "foreground": "#000",
+      "background": "#b482d4",
       "gutterIcon": true,
       "icon": "bug",
-      "iconColour": "#a435ee"
+      "iconColour": "#b482d4"
     },
     "MENTION": {
       "type": "tag",
       "foreground": "#000",
-      "background": "#00dddd",
+      "background": "#00c9c9",
       "gutterIcon": true,
       "icon": "mention",
-      "iconColour": "#00dddd"
+      "iconColour": "#00c9c9"
     },
     "IDEA": {
       "type": "tag",
       "foreground": "#000",
-      "background": "#e0e001",
+      "background": "#cfcf2d",
       "gutterIcon": true,
       "icon": "moon",
-      "iconColour": "#e0e001"
+      "iconColour": "#cfcf2d"
     },
-    "REUSABLE": {
+    "EXPLANATION": {
       "type": "tag",
       "foreground": "#000",
-      "background": "#f7aeae",
+      "background": "#d69898",
       "gutterIcon": true,
       "icon": "squirrel",
-      "iconColour": "#f7aeae"
+      "iconColour": "#d69898"
     },
     "CLIENT-REQUEST": {
       "type": "tag",
-      "foreground": "#ddd",
-      "background": "#00f",
+      "foreground": "#000",
+      "background": "#e0b76a",
       "gutterIcon": true,
       "icon": "person",
-      "iconColour": "#00f",
+      "iconColour": "#e0b76a",
     }
   },
   "todo-tree.tree.scanMode": "workspace",
-  "todo-tree.general.statusBar": "current file",
+  "todo-tree.general.statusBar": "none",
   "todo-tree.highlights.enabled": true,
   "todo-tree.tree.showCountsInTree": true,
   "todo-tree.tree.buttons.scanMode": true,

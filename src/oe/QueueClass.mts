@@ -3,7 +3,6 @@
 // TESTED: Tested twice
 // FEATURE: Add more fancy features
 
-
 import { randomUUID } from 'crypto';
 import { ObjectType } from './interfaces';
 

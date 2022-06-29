@@ -1,9 +1,23 @@
 /* eslint-disable */
 
-// TESTED: Tested once
-// INFO: It's recommended to disable eslint when working with this file
+/* FIXME: Fix critical bug */
 
-// * variable declarations and initializations
+/* CLIENT-REQUEST: Make more menu items & bigger */
+
+/* IDEA: jweiofwje */
+
+/* MENTION:
+  @bsafarli
+  @zeynalov
+  @aliyev
+  @jacksparrow
+  @fidanquliyeva
+  @alexwinston
+ */
+
+/* TESTED: Tested once */
+/* INFO: It's recommended to disable eslint when working with this file */
+
 let u = 5,
   k = 9,
   t = 3; // 1st way

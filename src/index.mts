@@ -1,28 +1,9 @@
 /* eslint-disable */
 
-// CLIENT-REQUEST: Menyudaki itemlerin sayin 4 olmalidir
-
-// TODO: This is TODO
-// FIXME: This is FIXME
-
-// TODO: Create and use User Snippets (or extension snippets e.g: ES6)
-// TODO: Use F1 to access command palette
-// TODO: Use Ctrl+P for Search file menu
-
-// WARNING: fwewef
-// FEATURE: Effektli acilib qapanma ozelliyi
-
-// INFO: vacib melumatdir zehmet olmazsa tedbir gorun
-
-// BUG: wefweifjw
-
-// MENTION: @Justin
-// IDEA: Kenarlarini belke oval edek?
-
-// REVIEW: wjeifwjfe
-// REUSABLE: fwiejfweijf
-
-// TESTED: wfijfeif
+/* INFO: Welcome to my code section, this is an info comment block */
+/* FEATURE: Add spinning globe effect */
+/* TODO: Do some checks here */
+/* TESTED: Some of below codes are tested by developers */
 
 import './oe/ProxyPatterns.mjs';
 
@@ -33,6 +14,31 @@ const sample = (arg1: string, ...value: [number, number]) => {
 const arr: [number, number] = [444, 555];
 
 sample('box', ...arr);
+
+/**
+ * JSDoc Comment
+ * Types:
+ * @type
+ * @param
+ * @returns
+ * @typedef
+ * @callback
+ * @template
+ * Classes:
+ * @public, @private, @protected, @readonly
+ * @override
+ * @extends
+ * @implements
+ * @class
+ * @this
+ * Documentation:
+ * @depreceated
+ * @see
+ * @link
+ * Other:
+ * @author
+ * @enum
+ */
 
 const longNum = 1_000_000 * 3_000;
 console.log(longNum);
