@@ -20,6 +20,7 @@ sample('box', ...arr);
 /**
  * My namespace
  * @namespace
+ * @author bsafarli
  */
 
 /**

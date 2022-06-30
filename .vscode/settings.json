@@ -13,7 +13,8 @@
   "editor.fontSize": 13,
   "editor.lineHeight": 1.2,
   "terminal.integrated.fontSize": 12,
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": true,
   "editor.cursorStyle": "line",
   "editor.lineNumbers": "on",
   "editor.wordWrap": "off",
@@ -25,12 +26,16 @@
   "editor.quickSuggestions": {
     "strings": true,
   },
-  "workbench.colorCustomizations": {
-    "[One Dark Pro]": {
-      "sideBarSectionHeader.foreground": "#ee98ff"
+  /* Theme */
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "editor.tokenColorCustomizations": {
+    "[One Dark Pro Flat]": {
+      "comments": {
+        "fontStyle": "italic"
+      }
     }
   },
-  // VIM
+  /* Vim */
   "vim.foldfix": true,
   "vim.useCtrlKeys": false,
   "todo-tree.general.tags": [
