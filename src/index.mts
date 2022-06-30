@@ -1,5 +1,15 @@
 /* eslint-disable */
 
+/* INFO: 
+  keyword -> PURPLE
+  string -> GREEN
+  function, method -> BLUE
+    call parens: PURPLE
+  operator -> CYAN
+  let, var, params -> RED
+  const, objProperty -> YELLOW
+ */
+
 /* FIXME: USE PEACOCK TO COLORIZE VSCODE */
 
 /* INFO: Welcome to my code section, this is an info comment block */
@@ -90,10 +100,10 @@ const Toaster = (() => {
   const IdGen = () => Math.random().toString(36).substring(2, 9);
 
   return class ToasterClass {
-    private readonly _serialNumber: string;
+    readonly serialNumber: string;
 
     constructor(private _power: number = 0) {
-      this._serialNumber = IdGen();
+      this.serialNumber = IdGen();
     }
 
     powerUp() {
