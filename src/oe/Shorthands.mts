@@ -6,11 +6,11 @@
 
 /* IDEA: jweiofwje */
 
-/*MENTION:
+/* MENTION:
   @bsafarli
   @zeynalov
   @aliyev
-  @jacksparrow
+  @jackrowsparow
   @fidanquliyeva
   @alexwinston
  */
@@ -35,28 +35,28 @@ const [foo, bar] = [() => console.log('FOO'), () => console.log('BAR')];
 let state: string = 'closed';
 ((state = 'closed'), state === 'open' ? foo : bar)();
 
-/* convert string to number */
-{
-  const str = '119.06331';
-  const num = +str;
-}
-
-/* floor number */
-{
-  const num = 8074.915;
-  const numFloored = ~~num;
-}
-
-/* decimal base exponents */
-{
-  const num = 10000;
-  const num2 = 1e4;
-  console.log(num === num2 ? 'YES' : 'NO');
-}
-
 // IIFE
 (() => {
   console.log('salam');
+})();
+
+/* convert string to number */
+(() => {
+  const str = '119.06331';
+  const num = +str;
+})();
+
+/* floor number */
+(() => {
+  const num = 8074.915;
+  const numFloored = ~~num;
+})();
+
+/* decimal base exponents */
+(() => {
+  const num = 10000;
+  const num2 = 1e4;
+  console.log(num === num2 ? 'YES' : 'NO');
 })();
 
 // prettier-ignore
