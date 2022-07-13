@@ -1,7 +1,6 @@
 {
   "workbench.editor.enablePreview": true,
   "workbench.startupEditor": "welcomePage",
-  "workbench.iconTheme": "material-icon-theme",
   "files.eol": "\n", // LF
   "files.autoSave": "off",
   "files.encoding": "utf8",
@@ -26,13 +25,24 @@
   "editor.quickSuggestions": {
     "strings": true,
   },
+  /* Inlay Hints */
+  "editor.inlayHints.enabled": "on",
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "editor.inlayHints.fontSize": 12,
+  "editor.inlayHints.fontFamily": "Consolas",
+  "editor.inlayHints.padding": true,
+  /* Emmet enable tab completion */
+  "emmet.triggerExpansionOnTab": true,
   /* Theme */
+  "workbench.colorCustomizations": {
+    "sideBarSectionHeader.foreground": "#ff80f9",
+    "editorInlayHint.foreground": "#818181"
+  },
   "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.iconTheme": "vscode-icons",
   "editor.tokenColorCustomizations": {
     "[One Dark Pro Flat]": {
-      "comments": {
-        "fontStyle": "italic"
-      }
     }
   },
   /* Vim */

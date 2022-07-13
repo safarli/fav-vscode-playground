@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export default function () {
 	console.log('hello bb')
 }
@@ -7,6 +9,6 @@ const ee = function () {
 }
 
 export {
-	ee as uu,
-	ee as kk
+	ee as ALIAS_uu,
+	ee as ALIAS_kk
 }

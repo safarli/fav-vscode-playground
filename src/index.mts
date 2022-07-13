@@ -21,6 +21,9 @@ import './oe/ProxyPatterns.mjs';
 
 const sample = (arg1: string, ...value: [number, number]) => {
   console.log(arg1, value);
+  Math.random();
+  const fn = () => Math.random();
+  fn();
 };
 
 const arr: [number, number] = [444, 555];
