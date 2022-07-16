@@ -42,8 +42,7 @@
   "workbench.colorTheme": "One Dark Pro Flat",
   "workbench.iconTheme": "vscode-icons",
   "editor.tokenColorCustomizations": {
-    "[One Dark Pro Flat]": {
-    }
+    "[One Dark Pro Flat]": {}
   },
   /* Vim */
   "vim.foldfix": true,
@@ -185,5 +184,5 @@
   "todo-tree.general.statusBar": "none",
   "todo-tree.highlights.enabled": true,
   "todo-tree.tree.showCountsInTree": true,
-  "todo-tree.tree.buttons.scanMode": true,
+  "todo-tree.tree.buttons.scanMode": true
 }
